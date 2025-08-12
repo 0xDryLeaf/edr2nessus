@@ -1,7 +1,5 @@
 # edr2nessus
 
-
-
 Ferramenta para consolidar inventário de ativos Windows a partir de exports do **SentinelOne** e **CrowdStrike Falcon** e cruzar com um "database" de vulnerabilidades do **Nessus** (criado a partir de outro script personalizado) , gerando uma visão clara de cobertura de varreduras autenticadas.
 
 ## Funcionalidades
@@ -66,7 +64,7 @@ python edr2nessus.py -s sentinelone.csv -c crowdstrike.csv -n nessus.csv -o outp
 | `--man`                 | `-h`  | Exibe manual detalhado |
 
 
-## 📊 Saída
+## Saída
 
 Arquivo Excel com as abas:
 - **Inventario - Workstation**: apenas workstations.
@@ -76,5 +74,5 @@ Arquivo Excel com as abas:
 - **Nessus**: inventário host-level com status de scan autenticado.
 
 
-## 📜 Licença
+## Licença
 Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
