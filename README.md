@@ -35,7 +35,7 @@ Ferramenta para consolidar inventário de ativos Windows a partir de exports do 
 Clone o repositório e instale as dependências:
 
 ```bash
-git clone https://github.com/0xDryLeaf/edr2nessus.git
+git clone https://github.com/0xdryleaf/edr2nessus.git
 cd edr2nessus
 pip install -r requirements.txt
 ```
